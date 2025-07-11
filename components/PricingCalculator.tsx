@@ -272,12 +272,15 @@ export default function PricingCalculator() {
 
       {/* Call to Action */}
       <div className="text-center mt-6">
-        <button
-          className="bg-greyflow-primary hover:bg-greyflow-primary/90 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-greyflow-primary/30 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-greyflow-primary/50"
+        <a
+          href="https://calendly.com/elliot-greyflow/audit"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-greyflow-primary hover:bg-greyflow-primary/90 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-greyflow-primary/30 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-greyflow-primary/50"
           aria-label="Get started with GreyFlow services"
         >
           Get Started
-        </button>
+        </a>
         <p className="text-greyflow-secondary text-sm mt-3">
           Ready to accelerate your machine shop&apos;s LinkedIn presence? 
           Get in touch to discuss your requirements.
